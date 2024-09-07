@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vidarbha Tourism - Shopping Cart</title>
+</head>
+<body background="#FF000">
+
+    <!-- Main Title -->
+    <h1 align="center">Shopping Cart</h1>
+
+    <header>
+        <!-- Main navigation table -->
+        <table border="5" width="100%" cellspacing="0">
+            <tr>
+                <td>
+                    <table border="3" width="90%" cellspacing="15" align="center">
+                        <tr>
+                            <td>
+                                <font face="Open Sans" size="5" color="black"><b>Shopping Cart</b></font>
+                            </td>
+                            <td width="40%">
+                                <b><center>"It's "ADD TO CART" kind of day!</b>
+                            </td>
+                            <td><a href="#home"><font color="black"><b>Home</b></font></a></td>
+                            <td><a href="#gallery"><font color="black"><b>Gallery</b></font></a></td>
+                            <td><a href="#services"><font color="black"><b>Services</b></font></a></td>
+                            <td><a href="#contact"><font color="black"><b>Contact</b></font></a></td>
+                            <td>
+                                <!-- Search bar -->
+                                <form>
+                                    <input type="text" placeholder="Search..." name="search">
+                                    <input type="submit" value="Go">
+                                </form>
+                            </td>
+                            <td>
+                                <!-- Select Option (Categories) -->
+                                <form>
+                                    <select name="category">
+                                        <option value="electronics">Electronics</option>
+                                        <option value="clothing">Clothing</option>
+                                        <option value="groceries">Groceries</option>
+                                    </select>
+                                </form>
+                            </td>
+                                <td>
+                                <!-- Logout button -->
+                                <a href="logout.html">
+                                    <button>Logout</button>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+    <h2 align="center">Welcome to Homeprabhat Shopping Cart!</h2>
+    <p align="center">Thank you for visiting our store. We're excited to help you find exactly what you need!</p>
+    <p align="center">Browse through our wide selection of high-quality products, handpicked just for you. Whether you're looking for [category 1], [category 2], or something special, we have something for everyone.</p>
+    <p align="center"><b>Here’s what you can expect:</b></p>
+    <ul align="center">
+        <li>Amazing Discounts: Get the best deals on your favorite items.</li>
+        <li>Fast & Secure Checkout: Enjoy a smooth shopping experience with secure payment options.</li>
+        <li>Customer Support: Need help? We’re here 24/7 to assist you with your queries.</li>
+    </ul>
+    <p align="center"><b>Start shopping and add your favorite items to the cart. Happy shopping!</b></p>
+</section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h3 align="center">Gallery</h3>
+        <center>
+            <table border="1" width="60%" cellpadding="10">
+                <tr>
+                    <td><img src="https://via.placeholder.com/150" alt="Gallery Image 1" width="150"></td>
+                    <td><img src="https://via.placeholder.com/150" alt="Gallery Image 2" width="150"></td>
+                    <td><img src="https://via.placeholder.com/150" alt="Gallery Image 3" width="150"></td>
+                </tr>
+                <tr align="center">
+                    <td>Product Showcase 1</td>
+                    <td>Product Showcase 2</td>
+                    <td>Product Showcase 3</td>
+                </tr>
+            </table>
+        </center>
+    </section>
+
+    <!-- Results Section -->
+    <section id="featured-products">
+        <h3 align="center">Featured Products</h3>
+        <table border="1" width="60%" align="center" cellpadding="10">
+            <tr>
+                <td align="center"><a href="https://example.com/product1"><b>Product 1</b></a></td>
+                <td align="center"><a href="https://example.com/product2"><b>Product 2</b></a></td>
+                <td align="center"><a href="https://example.com/product3"><b>Product 3</b></a></td>
+            </tr>
+            <tr>
+                <td align="center"><a href="https://example.com/product1">Description of Product 1</a></td>
+                <td align="center"><a href="https://example.com/product2">Description of Product 2</a></td>
+                <td align="center"><a href="https://example.com/product3">Description of Product 3</a></td>
+            </tr>
+            <tr>
+                <!-- Add to Cart Buttons -->
+                <td align="center">
+                    <form action="addtocart.html" method="POST">
+                        <input type="hidden" name="product" value="Product 1">
+                        <button type="submit">Add to Cart</button>
+                    </form>
+                </td>
+                <td align="center">
+                    <form action="addtocart.html" method="POST">
+                        <input type="hidden" name="product" value="Product 2">
+                        <button type="submit">Add to Cart</button>
+                    </form>
+                </td>
+                <td align="center">
+                    <form action="addtocart.html" method="POST">
+                        <input type="hidden" name="product" value="Product 3">
+                        <button type="submit">Add to Cart</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <h3 align="center">Contact Us</h3>
+        <p align="center">For any inquiries or assistance, feel free to reach out to us through our social media platforms!</p>
+        
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="https://via.placeholder.com/75" width="75" alt="Instagram">
+                        Instagram
+                    </td>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="https://via.placeholder.com/75" width="75" alt="YouTube">
+                        YouTube
+                    </td>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="https://via.placeholder.com/75" width="75" alt="Twitter">
+                        Twitter
+                    </td>
+                </tr>
+            </table>
+        </center>
+
+        <p align="center">&copy; 2024 Homeprabhat Shopping Cart. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
